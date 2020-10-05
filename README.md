@@ -1,2 +1,2 @@
-# G-S-assessment-
+# G-S-assessment
 assessment for G&amp;S
