@@ -267,7 +267,7 @@
                                     <li>
                                        <a href="#" data-level="2">Flowers, Home &amp; Garden</a>
                                        <ul>
-                                          <li><span>Flowers, Home &; Garden</span></li>
+                                          <li><span>Flowers, Home &amp; Garden</span></li>
                                           <li><a href="http://www.syngentaflowers.com/country/us/en/aboutus/pages/contactus.aspx" target="_blank" class="mm-external">Seeds</a></li>
                                           <li><a href="http://www.syngentaflowers.com/country/us/en/aboutus/pages/contactus.aspx" target="_blank" class="mm-external">Vegetative</a></li>
                                           <li><a href="http://www.syngentaflowers.com/country/us/en/aboutus/pages/contactus.aspx" target="_blank" class="mm-external">Home, Garden Vegetables</a></li>
@@ -761,9 +761,22 @@
       <!-- BEGIN Page Content -->
       <div class="page-content">
       <!-- KEEP EDITS BELOW THIS LINE -->
-         <p>tttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt
-            tttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt
-         </p>
+      <section class="mktb-standard mktb-default" id="mkt-banner">
+         <div class="mktb-mobile-bk"></div>
+         <div class="mktb-bk"></div>
+         <div class="container">
+             <div class="row">
+                 <div class="logo-abs-cont">
+                     <div id="probLogo"></div>
+                 </div>
+                  <div id="ls-card-copy" class="mktbs-call-out">
+                     <h1>Heading Level One</h1>
+                     <span class="mktbs-title">Lorem ipsum dolor sit amet</span>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+             </div>
+         </div>
+     </section>
       <!-- KEEP EDITS ABOVE THIS LINE -->
       </div>
       <!-- END Page Content -->
@@ -826,7 +839,7 @@
                      <li><a href="http://greencastonline.com/help/contact.aspx">Golf, Turf, Lawn</a></li>
                      <li><a href="http://syngentapmp.com/contact/">Pest Management</a></li>
                      <li><a href="http://greencastonline.com/help/contact.aspx">Aquatics</a></li>
-                     <li><a href="https://www.syngentaflowers-us.com/contactus">Flowers, Home &amp; Garden</a></li>
+                     <li><a href="https://www.syngentaflowers-us.com/contactus">Flowers, Home &amamp; Garden</a></li>
                      <li><a href="http://www.greencastonline.com/help/contact.aspx">Ornamental Controls</a></li>
                   </ul>
                </div>
@@ -863,3 +876,215 @@
                  </div>
              </div>
          </div>
+                  
+
+
+          <style>
+              #site-survey {
+              width: 350px;
+              padding: 25px 30px;
+              position: fixed;
+              bottom: -100%;
+              right: 0;
+              -webkit-box-shadow: -16px -4px 30px 0px rgba(0,0,0,0.35);
+              -moz-box-shadow: -16px -4px 30px 0px rgba(0,0,0,0.35);
+              box-shadow: -16px -4px 30px 0px rgba(0,0,0,0.35);
+              -webkit-transition: all 1s ease;
+              -moz-transition: all 1s ease;
+              -o-transition: all 1s ease;
+              -ms-transition: all 1s ease;
+              transition: all 1s ease;
+              z-index: 9999;
+              }
+
+              #site-survey.visible {
+              bottom: 0;
+              }
+
+              #site-survey.syngenta-us {
+              background: rgba(37,127,147,0.95);
+              }
+
+              #site-survey.golden-harvest {
+              background: rgba(231,170,0,0.95);
+              }
+
+              #site-survey.kmgm {
+              background: rgba(71,95,35,0.95);
+              }
+
+              #site-survey.sci {
+              background: rgba(109,180,82,0.95);
+              }
+
+              #site-survey .survey-questions {
+              display: none;
+              }
+
+              #site-survey sup {
+              font-size: 12px;
+              }
+
+              #site-survey h3 {
+              display: block;
+              font-size:18px;
+              font-weight: 400;
+              margin: 15px 0 0;
+              }
+
+              #site-survey.syngenta-us h3, #site-survey.kmgm h3 {
+              color: #fff;
+              }
+
+              #site-survey .form-intro h3 {
+              margin: 0;
+              }
+
+              #site-survey p {
+              margin-bottom: 0;
+              }
+
+              #site-survey.syngenta-us p, #site-survey.kmgm p {
+              color: #fff;
+              }
+
+              #site-survey textarea, #site-survey button {
+              width: calc(100% / 3 - 6px);
+              padding: 5px 0;
+              margin-right: 2px;
+              border-radius: 0;
+              border: none;
+              outline: none;
+              }
+
+              #site-survey textarea, #site-survey select {
+              outline: none;
+              border: none;
+              width: 100%;
+              margin-top: 15px;
+              }
+
+              #site-survey textarea {
+              resize: none;
+              padding: 10px;
+              height: 100px;
+              }
+
+              #site-survey button {
+              background: #fff;
+              margin-top: 20px;
+              cursor: pointer;
+              }
+
+              #site-survey button:first-child {
+              margin-left: 0;
+              }
+
+              #site-survey:not(.syngenta-us) button.active {
+              color: #fff;
+              }
+
+              #site-survey.syngenta-us button.active {
+              background: #78dbf3;
+              }
+
+              #site-survey.golden-harvest button.active {
+              background: #937114;
+              }
+
+              #site-survey.kmgm button.active {
+              background: #2a4209;
+              }
+
+              #site-survey.sci button.active {
+              background: #47882f;
+              }
+
+              #site-survey div.close-button {
+              width: 16px;
+              height: 16px;
+              position: absolute;
+              top: 10px;
+              right: 10px;
+              cursor: pointer;
+              }
+
+              #site-survey div.close-button svg path {
+              fill-rule: evenodd;
+              fill: #000;
+              }
+
+              #site-survey.syngenta-us div.close-button svg path, #site-survey.kmgm div.close-button svg path {
+              fill: #fff;
+              }
+
+              #site-survey .survey-thanks {
+              display: none;
+              }
+          </style>
+          <style>
+              <link rel="stylesheet" type="text/css" href="/survey/css/survey.css" />
+          </style>
+            <div id="formQualtrics" data-survey-id="SV_2mzgmGHdpMCQIYd">
+              <div class="container">
+                  <div id="site-survey" class="syngenta-us">
+                      <div class="form-intro">
+                          <h3>Is this page helpful to you?</h3>
+                          <button type="button" class="btnclick" id="btnYes" value="Yes" name="Yes" data-qid="Q1" data-question="Is this Page Helpful?" data-importid="QID1_TEXT">Yes</button>
+                          <button type="button" class="btnclick" id="btnSortof" value="Sort of" name="Sort of" data-qid="Q1" data-question="Is this Page Helpful?" data-importid="QID1_TEXT">Sort of</button>
+                          <button type="button" class="btnclick" id="btnNotReally" value="Not really" name="Not really" data-qid="Q1" data-question="Is this Page Helpful?" data-importid="QID1_TEXT">Not really</button>
+                      </div>
+                      <div class="survey-questions">
+                          <h3>How can we improve<br>this page? <sup>(optional)</sup></h3>
+                          <textarea id="improve-how" name="Improvements" placeholder="Tell us by typing here." data-question="How can we improve this page" data-qid="Q2" data-importid="QID2_TEXT"></textarea>
+                          <h3>Can you tell us your<br>role in agriculture? <sup>(optional)</sup></h3>
+                          <select name="Agriculture role" id="agriculture-role" data-question="Can you tell us your role in agriculture?" data-qid="Q3" data-importid="QID5_TEXT">
+                              <option selected="selected">---Select---</option>
+                              <option>Farm owner/operator</option>
+                              <option>Seed dealer</option>
+                              <option>Sales rep</option>
+                              <option>Agronomist</option>
+                              <option>Student</option>
+                              <option>Farm advisor</option>
+                              <option>Farm employee</option>
+                              <option>Journalist</option>
+                              <option>Financial investor</option>
+                              <option>Other</option>
+                          </select>
+                          <button id="submit-survey">Submit</button>
+                          <div style="display: none">
+                              <input type="text" name="User IP" id="userId" data-qid="Q8" data-question="IP Address" data-importid="QID8_TEXT">
+                              <input type="text" name="Browser" id="browserId" data-qid="Q4" data-question="User Info" data-importid="QID6_TEXT">
+                              <input type="text" name="Current URL" id="currentUrlId" data-qid="Q7" data-question="Current URL(referrer)" data-importid="QID7_TEXT">
+                              <input type="text" name="Category" id="categoryId" data-qid="Q9" data-question="Category ID" data-importid="QID9_TEXT">
+                              <input type="text" name="GAID" id="GAID" data-qid="Q10" data-question="GA Client ID" data-importid="QID10_TEXT">
+                          </div>
+                      </div>
+                      <div class="survey-thanks">
+                          <h3>Thanks for the feedback.</h3>
+                          <p>We appreciate your participation</p>
+                          <button class="close-button">Close</button>
+                      </div>
+                      <div class="close-button">
+                          <!--?xml version="1.0" encoding="UTF-8" ?-->
+                          <svg viewBox="0 0 61.88 60.78" xmlns="http://www.w3.org/2000/svg">
+                              <g data-name="Layer 2">
+                                  <g data-name="Layer 1">
+                                      <path class="cls-1" d="M57.38,0l4.5,4.42L4.5,60.78,0,56.36Z"></path>
+                                      <path class="cls-1" d="M61.88,56.36l-4.5,4.42L0,4.42,4.5,0Z"></path>
+                                  </g>
+                              </g>
+                          </svg>
+                      </div>
+                  </div>
+              </div>
+            </div>
+<!--           <script src="https://www.syngenta-us.com/survey/js/Qualtrics.js">
+          </script>
+          <script src="https://www.syngenta-us.com/survey/js/survey_new.js">
+          </script> -->
+      </footer>
+      <!-- <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+      <script src="js/site.js"></script> -->
+   </body>
+</html>
