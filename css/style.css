@@ -1,0 +1,342 @@
+#mkt-banner {
+  margin-top: -21px;
+  height: 400px;
+  position: relative;
+  background-color: darkgrey;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+#mkt-banner.mktb-standard {
+}
+
+.mktb-standard .mktb-mobile-bk {
+  display: block;
+  width: 100%;
+  height: 400px;
+  position: relative;
+  background-color: darkgrey;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mktb-standard.mktb-default .mktb-mobile-bk {
+  height: 250px;
+}
+
+.mktb-standard .mktb-bk {
+  display: none;
+}
+
+.mktb-standard .container {
+  position: relative;
+  height: auto;
+  margin-top: -400px;
+}
+
+.mktb-standard.mktb-default .container {
+  margin-top: 0;
+}
+
+#mkt-banner .logo-abs-cont {
+  background: #fff;
+  padding: 15px;
+}
+
+#mkt-banner.mktb-standard .logo-abs-cont {
+  bottom: auto;
+  top: 75px;
+  left: 15px;
+}
+
+#mkt-banner.mktb-standard.mktb-default .logo-abs-cont {
+  top: 0;
+  left: 0;
+}
+
+#mkt-banner .logo-abs-cont {
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#mkt-banner.mktb-standard.mktb-default .logo-abs-cont {
+  position: relative;
+  text-align: center;
+}
+
+#mkt-banner .logo-abs-cont img {
+  height: 50px;
+  width: auto;
+}
+
+#probLogo {
+  background-color: darkgrey;
+  height: 55px;
+  width: 70px;
+  vertical-align: auto;
+}
+
+.mktb-standard .mktbs-call-out {
+  background-color: #fff;
+  margin: 75px 15px 0;
+  padding: 32px 15px 30px;
+  /* border-bottom-width: 5px; */
+  /* border-bottom-style: solid; */
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.mktb-standard .bar-btm {
+  width: 100%;
+  height: 3px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  margin-left: -20px;
+}
+
+.mktb-standard .mktbs-call-out .mktbs-title {
+  color: #000;
+  font-size: 26px;
+  line-height: 31px;
+  font-weight: bold;
+  margin: 45px 0 20px;
+  display: block;
+}
+
+.mktb-standard .mktbs-call-out p {
+  color: #000;
+  margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+a.btn-pp {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 7px 18px;
+  border-width: 2px;
+  border-style: solid;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+a.btn-pp:hover {
+  background-color: #fff;
+}
+
+.dark-text a.btn-pp {
+  color: #000;
+}
+
+#mkt-banner-lines {
+  margin-top: -21px;
+}
+
+.mktb-lines .top-line {
+  height: 10px;
+  width: 100%;
+  display: block;
+}
+
+.mktb-lines .btm-line {
+  height: 8px;
+  width: 100%;
+  display: block;
+}
+
+.mktb-lines .img-ves img {
+  display: block;
+  padding: 13px 0 7px;
+  margin: 0 auto;
+  height: 75px;
+}
+
+@media only screen and (min-width: 768px) {
+  .mktb-standard.mktb-default .container {
+    margin-top: -50px;
+    padding-bottom: 0;
+  }
+
+  .mktb-standard .mktb-mobile-bk {
+    display: none;
+  }
+
+  .mktb-standard .mktb-bk {
+    display: block;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #mkt-banner .logo-abs-cont {
+    bottom: initial;
+    top: 250px;
+    left: 15px;
+  }
+
+  #mkt-banner.mktb-standard.mktb-default .logo-abs-cont {
+    left: auto;
+  }
+
+  .mktb-standard.mktb-animation .mktb-bk {
+    height: 500px;
+  }
+
+  .mktb-standard.mktb-default .mktb-bk {
+    height: 250px;
+  }
+
+  .mktb-standard .container {
+    position: relative;
+    height: 400px;
+    margin-top: 0;
+    padding-bottom: 0;
+    overflow: hidden;
+  }
+
+  .mktb-standard.mktb-animation .container {
+    height: 500px;
+  }
+
+  .mktb-standard.mktb-default .container {
+    height: 250px;
+    margin-top: 0;
+  }
+
+  .mktb-standard .mktbs-call-out {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 55%;
+    margin: 0 0 0 15px;
+    position: absolute;
+    padding: 20px 20px 30px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  #mkt-banner.mktb-standard.mktb-default .logo-abs-cont {
+    position: absolute;
+    text-align: left;
+  }
+
+  #mkt-banner .logo-abs-cont {
+    background: #fff;
+    padding: 15px 25px 7px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    left: auto;
+    -webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  #mkt-banner.mktb-standard .logo-abs-cont {
+    bottom: auto;
+    top: 0;
+    left: auto;
+  }
+
+  #mkt-banner .logo-abs-cont img {
+    height: 50px;
+    max-height: none;
+    width: auto;
+    max-width: none;
+  }
+
+  .mktb-standard .mktbs-call-out .mktbs-title {
+    margin: 0 0 20px;
+  }
+
+  .mktb-lines .img-ves img {
+    float: right;
+    margin: 0 20px 0 0;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .mktb-standard .mktbs-call-out {
+    width: 45%;
+  }
+
+  #mkt-banner {
+    margin-top: -14px;
+  }
+
+  .mktb-standard .mktbs-call-out {
+    top: 47%;
+    transform: translateY(-50%);
+  }
+
+  #mkt-banner.mktb-lines {
+    margin-bottom: 25px;
+  }
+
+  .mktb-lines .top-line {
+    height: 6px;
+  }
+
+  .mktb-lines .btm-line {
+    height: 8px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .mktb-standard .mktbs-call-out {
+    width: 40%;
+  }
+}
+.pc-bkg,
+.toggle-states.active,
+.toggle-crops.active,
+.testimonial-select.pc-active {
+  background-color: #3f97cc;
+}
+.sc-bkg {
+  background-color: #fcb615;
+}
+.pc-line-bkg {
+  background-color: #3f97cc !important;
+}
+.pc-color,
+.label-detail-single.active .lds-title,
+a.rp-single:hover .rp-cta,
+a.article-single:hover article .article-copy h4,
+.nav-col .pc-active {
+  color: #3f97cc !important;
+}
+.pc-border,
+.toggle-states.active,
+.toggle-crops.active {
+  border-color: #3f97cc;
+}
+.pc-color-hover:hover {
+  color: #3f97cc !important;
+  border-color: #3f97cc;
+}
+.pc-fill {
+  fill: #3f97cc;
+}
+.pc-fill-hover:hover svg,
+.label-detail-single.active svg {
+  fill: #3f97cc !important;
+}
+@media only screen and (min-width: 768px) {
+  .label-detail-single.active {
+    border-color: #3f97cc;
+  }
+}
