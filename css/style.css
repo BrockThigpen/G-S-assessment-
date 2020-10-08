@@ -168,6 +168,46 @@ a.btn-pp:hover {
   margin: 0 auto;
 }
 
+label {
+  display: block;
+}
+
+a {
+  text-decoration: underline;
+}
+
+input[type="text"] {
+  width: 100%;
+  border-width: 1px;
+  margin-bottom: 15px;
+}
+
+.cb-text {
+  margin-left: 2em;
+  display: block;
+  position: relative;
+  margin-top: -1.4em; /* make this margin match whatever your line-height is */
+  line-height: 1.4em; /* can be set here, or elsewehere */
+}
+
+#submit-btn {
+  margin: 15px;
+  color: #fff;
+  background: darkgray;
+  border: 1px solid darkgray;
+  border-radius: 0;
+  padding: 6px 11px;
+  outline: none;
+  font-weight: bold;
+}
+
+textarea {
+  width: 100%;
+  border-color: black;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
 @media only screen and (min-width: 768px) {
   .mktb-standard.mktb-default .container {
     margin-top: -50px;
@@ -303,6 +343,10 @@ a.btn-pp:hover {
   .image-copy .ic-cont.img-right .copy-cont {
     padding: 0 15px 0 0;
   }
+
+  .label-detail-single.active {
+    border-color: #3f97cc;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -371,9 +415,4 @@ a.article-single:hover article .article-copy h4,
 .pc-fill-hover:hover svg,
 .label-detail-single.active svg {
   fill: #3f97cc !important;
-}
-@media only screen and (min-width: 768px) {
-  .label-detail-single.active {
-    border-color: #3f97cc;
-  }
 }
