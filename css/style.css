@@ -160,6 +160,14 @@ a.btn-pp:hover {
   height: 75px;
 }
 
+.image-copy {
+  margin: 50px 0;
+}
+
+.image-copy .ic-cont .img-cont img {
+  margin: 0 auto;
+}
+
 @media only screen and (min-width: 768px) {
   .mktb-standard.mktb-default .container {
     margin-top: -50px;
@@ -265,6 +273,35 @@ a.btn-pp:hover {
   .mktb-lines .img-ves img {
     float: right;
     margin: 0 20px 0 0;
+  }
+
+  .image-copy .ic-cont {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+  }
+
+  .image-copy .ic-cont.img-right {
+    flex-direction: row-reverse;
+  }
+
+  .image-copy .ic-cont .img-cont {
+    flex: 1 0 60%;
+    padding: 0 15px 0 0;
+  }
+
+  .image-copy .ic-cont.img-right .img-cont {
+    padding: 0 0 0 15px;
+  }
+
+  .image-copy .ic-cont .copy-cont {
+    flex: 1 0 40%;
+    padding: 0 0 0 15px;
+  }
+
+  .image-copy .ic-cont.img-right .copy-cont {
+    padding: 0 15px 0 0;
   }
 }
 
