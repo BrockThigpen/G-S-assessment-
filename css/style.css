@@ -9,9 +9,6 @@
   overflow: hidden;
 }
 
-#mkt-banner.mktb-standard {
-}
-
 .mktb-standard .mktb-mobile-bk {
   display: block;
   width: 100%;
@@ -188,6 +185,10 @@ input[type="text"] {
   position: relative;
   margin-top: -1.4em; /* make this margin match whatever your line-height is */
   line-height: 1.4em; /* can be set here, or elsewehere */
+}
+
+.copy-cont {
+  margin-top: 25px;
 }
 
 #submit-btn {
@@ -415,4 +416,8 @@ a.article-single:hover article .article-copy h4,
 .pc-fill-hover:hover svg,
 .label-detail-single.active svg {
   fill: #3f97cc !important;
+}
+
+#no-pad {
+  padding: 0;
 }
