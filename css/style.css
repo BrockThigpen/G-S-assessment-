@@ -6,7 +6,8 @@
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  overflow: hidden;
+
+  margin-bottom: 200px;
 }
 
 .mktb-standard .mktb-mobile-bk {
@@ -34,6 +35,10 @@
   margin-top: -400px;
 }
 
+#banner-information {
+  overflow: visible;
+}
+
 .mktb-standard.mktb-default .container {
   margin-top: 0;
 }
@@ -51,7 +56,7 @@
 
 #mkt-banner.mktb-standard.mktb-default .logo-abs-cont {
   top: 0;
-  left: 0;
+  /* left: 0; */
 }
 
 #mkt-banner .logo-abs-cont {
@@ -62,7 +67,7 @@
 }
 
 #mkt-banner.mktb-standard.mktb-default .logo-abs-cont {
-  position: relative;
+  /* position: relative; */
   text-align: center;
 }
 
@@ -80,7 +85,7 @@
 
 .mktb-standard .mktbs-call-out {
   background-color: #fff;
-  margin: 75px 15px 0;
+  margin: 0 15px;
   padding: 32px 15px 30px;
   /* border-bottom-width: 5px; */
   /* border-bottom-style: solid; */
@@ -112,6 +117,10 @@
   margin: 0 0 20px;
   font-size: 16px;
   line-height: 23px;
+}
+
+#ls-card-copy h1 {
+  text-align: end;
 }
 
 a.btn-pp {
@@ -215,6 +224,9 @@ textarea {
   margin-bottom: 15px;
 }
 
+.test {
+}
+
 @media only screen and (min-width: 768px) {
   .mktb-standard.mktb-default .container {
     margin-top: -50px;
@@ -283,6 +295,14 @@ textarea {
     transform: translateY(-50%);
   }
 
+  #ls-card-copy h1 {
+    text-align: start;
+  }
+
+  #mkt-banner {
+    margin-bottom: 0px;
+  }
+
   #mkt-banner.mktb-standard.mktb-default .logo-abs-cont {
     position: absolute;
     text-align: left;
@@ -330,7 +350,7 @@ textarea {
   }
 
   .image-copy .ic-cont .img-cont {
-    flex: 1 0 60%;
+    /* flex: 1 0 60%; */
     padding: 0 15px 0 0;
   }
 
