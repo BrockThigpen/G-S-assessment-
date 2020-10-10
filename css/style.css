@@ -165,6 +165,12 @@ a.btn-pp:hover {
   margin: 0 auto;
 }
 
+#contImg {
+  background-color: darkgray;
+  width: 550px;
+  height: 350px;
+}
+
 label {
   display: block;
 }
@@ -183,8 +189,8 @@ input[type="text"] {
   margin-left: 2em;
   display: block;
   position: relative;
-  margin-top: -1.4em; /* make this margin match whatever your line-height is */
-  line-height: 1.4em; /* can be set here, or elsewehere */
+  margin-top: -1.4em;
+  line-height: 1.4em;
 }
 
 .copy-cont {
@@ -321,10 +327,6 @@ textarea {
     display: -ms-flexbox;
     display: flex;
     align-items: center;
-  }
-
-  .image-copy .ic-cont.img-right {
-    flex-direction: row-reverse;
   }
 
   .image-copy .ic-cont .img-cont {
